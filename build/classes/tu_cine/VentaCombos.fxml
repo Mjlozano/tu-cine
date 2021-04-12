@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="763.0" style="-fx-background-color: #e0e0e0;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tu_cine.VentaCombosController">
+   <children>
+      <AnchorPane prefHeight="56.0" prefWidth="763.0" style="-fx-background-color: #00838f;">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/banner.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="81.0" layoutX="682.0" layoutY="2.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/banner.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="306.0" layoutY="9.0" text="CONFITERIA" textFill="#fcfcfc">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="49.0" layoutY="73.0" prefHeight="260.0" prefWidth="210.0" style="-fx-background-color: #f4f4f4;">
+         <children>
+            <Separator layoutX="5.0" layoutY="211.0" prefWidth="200.0" />
+            <Label layoutX="14.0" layoutY="225.0" text="\$27,500">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fitHeight="162.0" fitWidth="158.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/combos/combo1.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="115.0" layoutY="220.0" onAction="#comprar1" style="-fx-background-color: #00838f;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="277.0" layoutY="73.0" prefHeight="260.0" prefWidth="210.0" style="-fx-background-color: #f4f4f4;">
+         <children>
+            <Separator layoutX="5.0" layoutY="210.0" prefWidth="200.0" />
+            <Label layoutX="14.0" layoutY="225.0" text="\$29,500">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fitHeight="162.0" fitWidth="156.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/combos/combo2.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="115.0" layoutY="220.0" onAction="#comprar2" style="-fx-background-color: #00838f;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="503.0" layoutY="73.0" prefHeight="260.0" prefWidth="210.0" style="-fx-background-color: #f4f4f4;">
+         <children>
+            <Separator layoutX="5.0" layoutY="209.0" prefWidth="200.0" />
+            <Label layoutX="11.0" layoutY="225.0" text="\$29,500">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fitHeight="162.0" fitWidth="158.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/combos/combo3.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="119.0" layoutY="220.0" onAction="#comprar2" style="-fx-background-color: #00838f;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="50.0" layoutY="347.0" prefHeight="251.0" prefWidth="210.0" style="-fx-background-color: #f4f4f4;">
+         <children>
+            <Separator layoutX="5.0" layoutY="201.0" prefWidth="200.0" />
+            <Label layoutX="14.0" layoutY="216.0" text="\$19,500">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fitHeight="162.0" fitWidth="158.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/combos/combo4.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="115.0" layoutY="211.0" onAction="#comprar3" style="-fx-background-color: #00838f;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="278.0" layoutY="347.0" prefHeight="251.0" prefWidth="210.0" style="-fx-background-color: #f4f4f4;">
+         <children>
+            <Separator layoutX="5.0" layoutY="201.0" prefWidth="200.0" />
+            <Label layoutX="14.0" layoutY="217.0" text="\$15,000">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fitHeight="162.0" fitWidth="158.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/combos/combo5.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="124.0" layoutY="212.0" onAction="#comprar4" style="-fx-background-color: #00838f;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="504.0" layoutY="347.0" prefHeight="251.0" prefWidth="210.0" style="-fx-background-color: #f4f4f4;">
+         <children>
+            <Separator layoutX="5.0" layoutY="201.0" prefWidth="200.0" />
+            <Label layoutX="14.0" layoutY="218.0" text="\$16,500">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fitHeight="162.0" fitWidth="158.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/combos/combo6.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="115.0" layoutY="213.0" onAction="#comprar5" style="-fx-background-color: #00838f;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="25.0" layoutY="606.0" onAction="#back" prefHeight="31.0" prefWidth="39.0">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

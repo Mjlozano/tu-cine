@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="116.0" prefWidth="535.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="tu_cine.EliminarController">
+   <children>
+      <JFXComboBox fx:id="peliss" layoutX="127.0" layoutY="36.0" prefHeight="25.0" prefWidth="154.0" promptText="Pelicula" />
+      <JFXButton layoutX="294.0" layoutY="26.0" onAction="#eliminar" prefHeight="45.0" prefWidth="120.0" text="Eliminar">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/delete.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="116.0" layoutY="71.0" onAction="#back" prefHeight="38.0" prefWidth="33.0">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <ImageView fitHeight="115.0" fitWidth="101.0" layoutX="437.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/wall.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="101.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/wall.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

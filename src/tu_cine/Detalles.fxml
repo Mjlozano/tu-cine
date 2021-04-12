@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="722.0" style="-fx-background-color: #00838f;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tu_cine.DetallesController">
+   <children>
+      <Label layoutX="232.0" layoutY="25.0" text="Título original:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="58.0" text="Fecha de estreno:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="89.0" text="Clasificación:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="125.0" text="Sinopsis:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="poster" fitHeight="263.0" fitWidth="200.0" layoutX="14.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <Reflection fraction="0.31" topOpacity="0.16" />
+         </effect>
+      </ImageView>
+      <Label layoutX="232.0" layoutY="282.0" text="Director:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="307.0" text="Genero:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="332.0" text="Idioma:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="titulo_label" layoutX="372.0" layoutY="29.0" text="Label" />
+      <Label fx:id="estreno_label" layoutX="386.0" layoutY="62.0" text="Label" />
+      <Label fx:id="clasificacion_label" layoutX="358.0" layoutY="93.0" text="Label" />
+      <Label fx:id="sinopsis_label" layoutX="329.0" layoutY="129.0" text="Label" />
+      <Label fx:id="director_label" layoutX="316.0" layoutY="286.0" text="Label" />
+      <Label fx:id="genero_label" layoutX="316.0" layoutY="311.0" text="Label" />
+      <Label fx:id="idioma_label" layoutX="316.0" layoutY="336.0" text="Label" />
+      <Label layoutX="31.0" layoutY="371.0" text="Funciones: ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="200.0" layoutX="29.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/rating.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="240.0" fitWidth="335.0" layoutX="428.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/cinta.png" />
+         </image>
+      </ImageView>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="649.0" layoutY="414.0" onAction="#back" prefHeight="35.0" prefWidth="36.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

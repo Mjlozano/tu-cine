@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tu_cine.AddpeliculaController">
+   <children>
+      <AnchorPane layoutX="37.0" layoutY="83.0" prefHeight="280.0" prefWidth="227.0" style="-fx-background-color: #757575;">
+         <children>
+            <Label layoutX="65.0" layoutY="123.0" text="IMAGEN" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="nombrepeltxt" focusColor="#d32f2f" labelFloat="true" layoutX="338.0" layoutY="83.0" prefHeight="29.0" prefWidth="250.0" promptText="Nombre" />
+      <JFXTextField fx:id="clastxt" focusColor="#d32f2f" labelFloat="true" layoutX="338.0" layoutY="132.0" prefHeight="29.0" prefWidth="250.0" promptText="Clasificacion" />
+      <JFXTextField fx:id="generotxt" focusColor="#d32f2f" labelFloat="true" layoutX="338.0" layoutY="189.0" prefHeight="29.0" prefWidth="250.0" promptText="Genero" />
+      <JFXTextArea fx:id="sinoptxt" focusColor="#d32f2f" labelFloat="true" layoutX="338.0" layoutY="242.0" prefHeight="96.0" prefWidth="250.0" promptText="Sinopsis" />
+      <JFXTextField fx:id="directortxt" focusColor="#d32f2f" layoutX="338.0" layoutY="363.0" prefHeight="29.0" prefWidth="250.0" promptText="Director" />
+      <JFXComboBox fx:id="tipopel" focusColor="#d32f2f" layoutX="338.0" layoutY="411.0" promptText="Tipo" />
+      <AnchorPane layoutY="-7.0" prefHeight="65.0" prefWidth="635.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label fx:id="head" layoutX="140.0" layoutY="10.0" text="AÑADIR UNA PELICULA " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <JFXButton layoutX="359.0" layoutY="513.0" onAction="#agregar" prefHeight="43.0" prefWidth="183.0" style="-fx-background-color: #00838f;" text="Agregar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/addicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXDatePicker fx:id="fechaestrenotxt" defaultColor="#00838f" layoutX="450.0" layoutY="411.0" prefHeight="26.0" prefWidth="153.0" promptText="Fecha de estreno" />
+      <JFXTimePicker fx:id="hora_funcion" defaultColor="#00838f" layoutX="426.0" layoutY="455.0" prefHeight="26.0" prefWidth="137.0" promptText="Funciones" />
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="563.0" layoutY="447.0" onAction="#addFuncion" prefHeight="26.0" prefWidth="28.0">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/addfunc.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="28.0" layoutY="526.0" onAction="#back" prefHeight="39.0" prefWidth="42.0">
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXComboBox fx:id="pos" layoutX="338.0" layoutY="455.0" prefHeight="26.0" prefWidth="62.0" promptText="index" />
+   </children>
+</AnchorPane>

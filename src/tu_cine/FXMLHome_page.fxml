@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tu_cine.FXMLHome_pageController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="846.0" style="-fx-background-color: #00838f;">
+         <children>
+            <JFXButton fx:id="pel" contentDisplay="TOP" graphicTextGap="0.0" layoutX="32.0" layoutY="2.0" onAction="#openPeliculas" prefHeight="72.0" prefWidth="98.0" text="Peliculas" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="49.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/homeicon/peliculas.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="pro" contentDisplay="TOP" graphicTextGap="0.0" layoutX="130.0" onAction="#openProgramacion" prefHeight="76.0" prefWidth="123.0" text="Programación" textFill="#fcfcfc">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/homeicon/programacion.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="sal" contentDisplay="TOP" graphicTextGap="0.0" layoutX="253.0" layoutY="2.0" onAction="#openTarifas" prefHeight="74.0" prefWidth="81.0" text="Tarifas" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="48.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/homeicon/salas.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="tic" contentDisplay="TOP" graphicTextGap="0.0" layoutX="344.0" layoutY="1.0" onAction="#openTickets" text="Tickets" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="49.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/homeicon/tickets.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="combo" contentDisplay="TOP" graphicTextGap="0.0" layoutX="423.0" layoutY="1.0" onAction="#openCombo" text="Confiteria" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="49.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/homeicon/comida.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" layoutX="689.0" layoutY="7.0" onAction="#listaT" text="Caja" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/recaudo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="778.0" layoutY="16.0" onAction="#logOut" prefHeight="25.0" prefWidth="26.0">
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children></AnchorPane>
+      <AnchorPane layoutY="71.0" prefHeight="466.0" prefWidth="846.0" style="-fx-background-color: #e0e0e0;">
+         <children>
+            <ImageView fitHeight="316.0" fitWidth="488.0" layoutX="182.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/cineLogo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="265.0" layoutX="291.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/tucine.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

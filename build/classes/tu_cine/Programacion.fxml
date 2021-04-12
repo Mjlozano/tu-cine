@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tu_cine.ProgramacionController">
+   <children>
+      <AnchorPane prefHeight="47.0" prefWidth="700.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="236.0" layoutY="6.0" text="Programacion" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label fx:id="pel1" layoutX="29.0" layoutY="73.0" text="PELICULA 1">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="pel2" layoutX="29.0" layoutY="182.0" text="PELICULA 2">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="pel3" layoutX="29.0" layoutY="295.0" text="PELICULA 2">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="47.0" layoutY="121.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label fx:id="hr1" layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="186.0" layoutY="121.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label fx:id="hr2" layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="329.0" layoutY="121.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label fx:id="hr3" layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="457.0" layoutY="121.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label fx:id="h4" layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="579.0" layoutY="121.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label fx:id="hr5" layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="47.0" layoutY="231.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="186.0" layoutY="231.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="329.0" layoutY="231.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="457.0" layoutY="231.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="579.0" layoutY="231.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="47.0" layoutY="338.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="186.0" layoutY="338.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="329.0" layoutY="338.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="457.0" layoutY="338.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="579.0" layoutY="338.0" prefHeight="26.0" prefWidth="107.0" style="-fx-background-color: #00838f;">
+         <children>
+            <Label layoutX="32.0" layoutY="5.0" text="HORA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="22.0" layoutY="385.0" onAction="#back" prefHeight="26.0" prefWidth="43.0">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

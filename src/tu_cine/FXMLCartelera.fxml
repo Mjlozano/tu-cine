@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tu_cine.FXMLCarteleraController">
+   <children>
+      <AnchorPane layoutY="52.0" prefHeight="505.0" prefWidth="813.0" style="-fx-background-color: #efebe9;">
+         <children>
+            <ImageView fx:id="poster1" fitHeight="293.0" fitWidth="321.0" layoutX="43.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/peliculas/avengers.jpg" />
+               </image>
+               <effect>
+                  <Reflection fraction="0.24" topOpacity="0.16" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="poster2" fitHeight="293.0" fitWidth="321.0" layoutX="304.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Reflection fraction="0.24" topOpacity="0.16" />
+               </effect>
+               <image>
+                  <Image url="@Imagenes/peliculas/deadpool.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="poster3" fitHeight="293.0" fitWidth="321.0" layoutX="562.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Reflection fraction="0.24" topOpacity="0.16" />
+               </effect>
+               <image>
+                  <Image url="@Imagenes/peliculas/antman.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="pelicula_label1" layoutX="43.0" layoutY="329.0" text="Avengers: Infinity War">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="356.0" text="Clasificación:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="356.0" text="Clasificación:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="562.0" layoutY="356.0" text="Clasificación:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="pelicula_label2" layoutX="305.0" layoutY="329.0" text="Deadpool 2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pelicula_label3" layoutX="561.0" layoutY="329.0" text="Ant-Man and The Wasp">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="clasificacion_label1" layoutX="152.0" layoutY="357.0" text="clasificacionlabel" />
+            <Label fx:id="clasificacion_label2" layoutX="407.0" layoutY="357.0" text="clasificacionlabel" />
+            <Label fx:id="clasificacion_label3" layoutX="671.0" layoutY="356.0" text="clasificacionlabel" />
+            <Label layoutX="43.0" layoutY="381.0" text="Genero:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="381.0" text="Genero:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="562.0" layoutY="381.0" text="Genero:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="41.0" layoutY="415.0" style="-fx-background-color: #00838f;" text="Comprar tickets" textFill="WHITE" />
+            <JFXButton layoutX="302.0" layoutY="415.0" style="-fx-background-color: #00838f;" text="Comprar tickets" textFill="WHITE" />
+            <JFXButton layoutX="560.0" layoutY="415.0" style="-fx-background-color: #00838f;" text="Comprar tickets" textFill="WHITE" />
+            <JFXButton fx:id="ver_mas1" layoutX="171.0" layoutY="415.0" onAction="#verMas1" text="Ver más" />
+            <JFXButton fx:id="ver_mas2" layoutX="435.0" layoutY="415.0" onAction="#verMas2" text="Ver más" />
+            <JFXButton fx:id="ver_mas3" layoutX="690.0" layoutY="415.0" onAction="#verMas3" text="Ver más" />
+            <Label fx:id="genero_label1" layoutX="104.0" layoutY="382.0" text="Genero" />
+            <Label fx:id="genero_label2" layoutX="377.0" layoutY="382.0" text="Genero" />
+            <Label fx:id="genero_label3" layoutX="634.0" layoutY="381.0" text="Genero" />
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="33.0" layoutY="449.0" onAction="#back" text="Volver">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
+            <JFXButton layoutX="686.0" layoutY="452.0" onAction="#addMovie" text="Agregar">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/add.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
+            <JFXButton layoutX="583.0" layoutY="452.0" onAction="#eliminar" prefHeight="38.0" prefWidth="102.0" text="Eliminar">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton layoutX="484.0" layoutY="452.0" onAction="#modificar" prefHeight="38.0" prefWidth="102.0" text="Modificar">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/modificar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="-4.0" prefHeight="60.0" prefWidth="813.0" style="-fx-background-color: #00838f;">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="81.0" layoutX="-2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/banner.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="81.0" layoutX="729.0" layoutY="4.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/banner.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="323.0" layoutY="8.0" text="CARTELERA">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
